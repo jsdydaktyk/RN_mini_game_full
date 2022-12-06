@@ -1,13 +1,22 @@
 
-import { StyleSheet, Text, View, StatusBar } from 'react-native';
+import { StyleSheet,LinearGradient } from 'react-native';
 import StartGameScreen from './screens/StartGameScreen.jsx' ;
 
 export default function App() {
   return (
-    <StartGameScreen />
+    <LinearGradient>
+
+      <StartGameScreen/>   
+   
+    </LinearGradient>
+    
   );
 }
 
-// const styles = StyleSheet.create({
-  
-// });
+const styles = StyleSheet.create({
+  mainContainer:{
+    flex: 1,
+    
+  }
+});
+   
